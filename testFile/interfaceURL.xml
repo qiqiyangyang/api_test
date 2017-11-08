@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+    <url name="LTClogin">
+        <group>Services</group>
+        <module>YTCMobileServer</module>
+        <action>GetDataInfo</action>
+    </url>
+
+        <url name="LTCadd">
+        <group>Services</group>
+        <module>YTCMobileServer</module>
+        <action>AddDataInfo</action>
+
+    </url>
+</interface>

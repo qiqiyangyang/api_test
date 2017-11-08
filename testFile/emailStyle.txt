@@ -1,0 +1,20 @@
+<html>
+ <head>
+  <meta charset="UTF-8" />
+ </head>
+ <body>
+ <div>
+ <div class="top-line" style="margin: 0px; padding: 0px; font-family: arial; height: 3px; width: auto; background-color: rgba(227, 10, 32, 0.862745);"></div>
+ <div class="top" style="margin: 0px auto; padding: 0px; font-family: arial; height: 50px; width: auto; background-color:#F2F2F2;font-size: 14px; background-repeat: repeat-x;">
+ <div class="top-sloge" style="margin: 15px 25.765625px 0px 0px; padding: 0px; height: 50px; float: right; font-weight: bold; letter-spacing: 2px;">SHE IN SHINE OUT</div>
+ </div>
+ <div style="padding-top:30px;padding-left:0px">
+ 	<div sytle="font-family:'宋体'">您 好: </div><br><br>
+ 	<div style="padding-left:40px;font-family:'宋体'"> 所 有 用 例 已 经 测 试 完 成 。测 试 的 详 细 结 果 ，请 查 看 附件 的 测 试 报 告。</div><br><br>
+ 	<div style="padding-left:500px;font-family:'宋体'">谢 谢! </div><br><br>
+ </div>
+ <div class="end" style="font-family: arial; color: rgb(51, 51, 51); margin: 10px 0px 0px; padding: 0px; font-size: 16px; font-weight: bold;">接口测试组</div>
+ <div class="center-line2" style="font-family: arial; color: rgb(51, 51, 51); margin: 5px 0px 0px; padding: 0px; height: 2px; width: 400px; background-color: rgb(182, 196, 222);"></div>
+ <div class="nanjing" style="font-family: arial; color: rgb(51, 51, 51); margin: 5px 0px 3px; padding: 0px; font-size: 14px; font-weight: bold;">深圳市能信安科技股份有限公司&nbsp&nbsp&nbsp交通物联研发中心&nbsp&nbsp&nbsp测试部</div>
+ </body>
+</html>
