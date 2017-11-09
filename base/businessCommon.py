@@ -4,6 +4,7 @@ import readConfig as readConfig
 import json
 localReadConfig = readConfig.ReadConfig()
 localConfigHttp = configHttp.ConfigHttp()
+login_xls = common.get_xls("LTClogin.xls", "LTClogin")
 # login
 def login():
     """
@@ -20,9 +21,9 @@ def login():
 
     # set param
     param = {
-	"CommandCode": "MobileUserLogin",
-	"Marker": "ytc",
-	"TransferData": "{\"password\":\"Uc8IqZ9nxg2E9dCLd34PcA\\u003d\\u003d\",\"phoneNo\":\"13249824552\"}"
+	"CommandCode": login_xls[0][3],
+	"Marker": login_xls[0][4],
+	"TransferData":login_xls[0][5]
 }
     data = json.dumps(param)
     localConfigHttp.set_data(data)
@@ -57,3 +58,4 @@ def logout(token):
 
 if __name__=='__main__':
     print (login())
+    print (login_xls[0][3],login_xls[0][4],login_xls[0][5])
